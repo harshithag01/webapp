@@ -26,4 +26,15 @@
             </plugin>
         </plugins>
   </build>
+   <properties>
+        <!-- SonarQube Server URL -->
+        <sonar.host.url>http://localhost:9000/</sonar.host.url>
+
+        <!-- SonarQube authentication token -->
+        <sonar.login>sqp_94630b6bcdd26cefaaf13cec10c7c1642375fc12
+</sonar.login>
+
+        <!-- SonarQube Project Key -->
+        <sonar.projectKey>http://localhost:9000/project/settings?id=roche</sonar.projectKey>
+    </properties>
 </project>
